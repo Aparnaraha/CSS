@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background Image</title>
+    <style>
+        #box1 {
+            height: 500px;
+            width: 500px;
+             /* how to add background image */
+             background-image: url(../../images/css.png);
+             /* different background image properties */
+             
+             /* 1. Repetition: Control image repetition using
+                background-repeat. */
+             background-repeat: no-repeat;
+
+            /* 2. Positioning: Adjust image position using background-
+                position. */
+             background-position: top;
+
+            /* 3. Size Control: Manipulate image size using
+                background-size. */
+             background-size: contain;
+
+            /* 4. Background-Attachment: Sets whether the
+                background image scrolls with the element or
+                remains fixed. */
+
+             background-attachment:fixed ;
+            /* 5. Shorthand (color, image, repeat, attachment,
+                position) */
+
+             background: red url(../../images/css.png) no-repeat top contain fixed; 
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+</html>
